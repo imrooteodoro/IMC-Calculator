@@ -11,9 +11,11 @@
     border-bottom: black;
     color:antiquewhite;
     border: solid 2px rgb(18, 135, 30);
+    font-size:13px;
 }
 
 #refazer{
+font-size:13px;
 width:15px;
 border-radius: 50px;
 background-color: rgb(183, 69, 69);
