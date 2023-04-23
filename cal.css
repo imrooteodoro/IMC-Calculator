@@ -5,6 +5,7 @@
 
 
 #submit{
+    width:15px;
     border-radius: 50px;
     background-color: rgb(43, 164, 16);
     border-bottom: black;
@@ -13,6 +14,7 @@
 }
 
 #refazer{
+width:15px;
 border-radius: 50px;
 background-color: rgb(183, 69, 69);
 border-bottom: black;
