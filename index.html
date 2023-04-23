@@ -7,7 +7,7 @@
 
     <title> Calculadora de IMC</title>
 
-    <link rel="stylesheet" type="text/css" href="cal.css" media="screen"/>
+    <link rel="stylesheet" type="text/css" href="calc.css" media="screen"/>
     
     <script type="text/javascript" src="calc.js"></script>
 
@@ -25,15 +25,15 @@
 
       <div id="cabecalho"> 
 
-        <h1  style="text-align: center;font-size:15px;padding-top: 30px;font-family:courier;"> CALCULADORA DE IMC  UM POUCO OFENSIVA</h1>
+        <h1  style="text-align: center;font-size: 20px;padding-top: 30px;"> CALCULADORA DE IMC  UM POUCO OFENSIVA</h1>
         <br> 
 
                      </div>
 
       <div id="table">
 
-         <table id="tabizinha" class="tabela" style="color:black;"> 
-      <b>    <p style="font-size: 13px;margin: 4 5 0 0;font-family:'Courier New';color: rgb(51, 51, 44);"> Tabela com as classificações:</p></b>
+         <table id="tabizinha" class="tabela"> 
+      <b>    <p style="font-size: 10px;margin: 4 5 0 0;font-family:'Courier New';color: rgb(51, 51, 44);"> Tabela com as classificações:</p></b>
            <tr id="linha1">   <td> Abaixo do peso  </td>  <td> < 19   </td>    </tr>
 
            <tr id="linha2">   <td> Peso normal  </td>  <td> >= 19  e  < 25   </td>    </tr>
@@ -53,14 +53,12 @@
         <div id="calculadora">
 
           <div id="animacao">
-            
-             <h2 id="osso"> </h2>
 
-          
+            <h2 id="osso"> </h2>
             
           </div>
 
-            <form id="formulario" style="font-size:12px;">
+            <form id="formulario">
                 &nbsp; Altura: <input type="text" id="altura" onkeyup="ponto();" placeholder="Insira sua altura" > <br>      </input>
               &nbsp;    Peso:  &nbsp; <input type="number" id="peso" placeholder="Peso em Kg"> </input>
               <br> 
@@ -72,24 +70,28 @@
               <input type="submit" value="Refazer" id="refazer" style="font-family:'courier new';" onclick="reset();"> </input>
               <br>
 
-              &nbsp;&nbsp;   <h3  style="font-size: 10px;color:red;text-align:center;"> Seu resultado aparecerá abaixo...</h3>
-             <br> <br><br>
-              <div id="redes"> 
+              &nbsp;&nbsp;   <h3  style="font-size: 15px;color:red;text-align:center;"> Seu resultado aparecerá abaixo...</h3>
+              <br> 
+             </form>
 
 
-                <a href="https://www.instagram.com/_imrooteodoro/"  title="Instagram do desenvolvedor, caso queira xingá-lo, etc..">  <img  src="instagram.png" id="imagem" style="width: 15px;height:15px;" > </img> </a>
-
-
-            
-              </div>
-
+             &nbsp;&nbsp; &nbsp;  &nbsp; &nbsp; <input type="number"  id="imc" style="width:50px;text-align: center;"> </input>
               
-            
-      <br> 
+              &nbsp;&nbsp;&nbsp; <h3 id="resultado1" style="font-size: 13px; text-align: center;"></h3>
+            <a href="https://www.instagram.com/_imrooteodoro/" title="Instagram do desenvolvedor, caso queira xingá-lo, etc..">  <img  src="instagram.png" style="width: 20px;height: 20px;text-align: center; float: right;margin:  0 20 70 60;" > </img> </a>
+      <br><br>
         
         </div>
-         
-    
+        <br>
+
+
+    <div id="rodape"> 
+     
+      
+       
+      
+
+    </div>
 
     </div>
 
