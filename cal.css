@@ -6,10 +6,10 @@
 
 #submit{
     border-radius: 50px;
-    background-color: rgb(43, 164, 16);
+    background-color:#46bb7e;
     border-bottom: black;
-    color:antiquewhite;
-    border: solid 2px rgb(18, 135, 30);
+    color:black;
+    border: solid 2px #12a94e;
 }
 
 #Refazer{
