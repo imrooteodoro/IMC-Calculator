@@ -42,10 +42,12 @@ border: solid 2px rgb(71, 9, 9);
 }
 #altura{ 
     width:100px;
+    float right;
    
 }
 #peso{ 
   width:100px;
+#float: right;
    
 }
 #imc{
