@@ -5,13 +5,11 @@
 
 
 #submit{
-   
     border-radius: 50px;
     background-color: rgb(43, 164, 16);
     border-bottom: black;
     color:antiquewhite;
     border: solid 2px rgb(18, 135, 30);
-  
 }
 
 #refazer{
@@ -110,22 +108,3 @@ color: gray;
 text-align: center;
 
 }
-#imagem{
-
-    margin:10 50 0 0;
-    float:right;
-    background-color: purple;
-   
-}
-#redes{
-    width: 20px;
-    height:20px;
-    border: none;
-  margin:auto;
-
-}
-
-
-
-
-
