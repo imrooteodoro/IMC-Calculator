@@ -21,6 +21,7 @@ body {
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
+  background-color: rgb(53, 50, 50);
 }
 
 #calculadora {
