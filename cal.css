@@ -1,7 +1,7 @@
 *{margin: 0 0 0 0;
-    border:none}
+    border:none
+display: flex;}
 
-display: flex;
 @media screen and (max-width:768px){
 .main{
 width:100;
