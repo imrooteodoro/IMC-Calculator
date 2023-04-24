@@ -2,16 +2,10 @@
     border:none
 display: flex;}
 
-@media screen and (max-width:768px){
-.main{
-width:100;
-flex-direction: column;}
-
-}
 
 
 #submit{
-    border-radius: 50px;
+    border-radius: 50vh;
     background-color: rgb(43, 164, 16);
     border-bottom: black;
     color:antiquewhite;
@@ -19,7 +13,7 @@ flex-direction: column;}
 }
 
 #refazer{
-border-radius: 50px;
+border-radius: 50vh;
 background-color: rgb(183, 69, 69);
 border-bottom: black;
 color:antiquewhite;
@@ -32,35 +26,35 @@ border: solid 2px rgb(71, 9, 9);
     height: 900px;;
 }
 #calculadora{
-    padding-top: 50px;
+    padding-top: 50vh;
     background-color:#FFEBCD;
     border: solid bisque 2px;
-    border-radius:20px;
-    width:400px;
-    height:200px;
+    border-radius:20vh;
+    width:400vh;
+    height:200vh;
     margin:auto;
     text-align:center-left;
     font-family: 'Courier New', Courier, monospace;
 }
 #altura{ 
-    width:100px;
+    width:100vh;
    
 }
 #peso{ 
-  width:100px;
+  width:100vh;
    
 }
 #imc{
-    width: 30px;
+    width: 30vh;
 }
 #animacao{
-    width:200px;
-    height: 130px;
+    width:200vh;
+    height: 130vh;
     border:none;
     float:right;
     margin; 10 10 0 0;
-    border-radius: 60px;
-    paddin-left: 10px;
+    border-radius: 60vh;
+    paddin-left: 10vh;
     text-align:center;
     background-color:#FFEBCD;
     font-size:8px;
@@ -70,7 +64,7 @@ border: solid 2px rgb(71, 9, 9);
 
     width:24%;
     background-color:LightGoldenrodYellow;
-    height: 130px;
+    height: 130vh;
     float:right;
     color:whitesmoke;
     text-align:center;
