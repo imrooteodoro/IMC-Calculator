@@ -1,7 +1,11 @@
 * {
-  margin: 0;
+  margin: 0 0 0 0;
   padding: 0;
   border: none;
+}
+
+#cabec{font-size: 5px;
+
 }
 
 body {
@@ -69,24 +73,27 @@ body {
 }
 
 #table {
-  width: 13%;
-  max-width: 400px;
+  width: 40%;
+  max-width: 300px;
   background-color: LightGoldenrodYellow;
   margin: 10px;
   color: whitesmoke;
   text-align: center;
   border: solid blanchedalmond 1px;
   border-radius: 10%;
-  float:right;
+  float:left;
+  margin: 50 900 0 0;
 }
 
 #tabizinha {
-  width: 100%;
+  width:100%;
   font-size: 12px;
   border: none;
   border-radius: 10px;
   margin: 13px 20px;
   background-color: bisque;
+  float:left;
+  margin:auto;
 }
 
 #tabizinha tr {
@@ -105,4 +112,4 @@ body {
   #table {
     max-width: 90%;
   }
-  #animacao
+  
